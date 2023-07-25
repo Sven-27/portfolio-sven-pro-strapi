@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experiences",
+  "info": {
+    "singularName": "experience",
+    "pluralName": "experiences",
+    "displayName": "experience",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "companyLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "jobTitle": {
+      "type": "text"
+    },
+    "companyName": {
+      "type": "text"
+    },
+    "startDate": {
+      "type": "text"
+    },
+    "endDate": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "stackTitle": {
+      "type": "text"
+    },
+    "skills": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::skills.skill",
+      "mappedBy": "experience"
+    }
+  }
+}

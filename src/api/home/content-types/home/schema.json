@@ -1,0 +1,91 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contact": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "jobTitle": {
+      "type": "text"
+    },
+    "brand": {
+      "type": "text"
+    },
+    "workAt": {
+      "type": "text"
+    },
+    "aboutBtn": {
+      "type": "text"
+    },
+    "skillsBtn": {
+      "type": "text"
+    },
+    "projectsBtn": {
+      "type": "text"
+    },
+    "experienceBtn": {
+      "type": "text"
+    },
+    "connect": {
+      "type": "text"
+    },
+    "linkedIn": {
+      "type": "text"
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
