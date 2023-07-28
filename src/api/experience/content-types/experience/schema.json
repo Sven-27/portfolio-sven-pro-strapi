@@ -40,11 +40,11 @@
     "stackTitle": {
       "type": "text"
     },
-    "skills": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::skills.skill",
-      "mappedBy": "experience"
+    "stack": {
+      "displayName": "stack",
+      "type": "component",
+      "repeatable": true,
+      "component": "experience.stack"
     }
   }
 }

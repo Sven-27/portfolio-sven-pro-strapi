@@ -28,18 +28,6 @@
     },
     "title": {
       "type": "text"
-    },
-    "projects": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::project.project",
-      "mappedBy": "skills"
-    },
-    "experience": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::experience.experience",
-      "inversedBy": "skills"
     }
   }
 }

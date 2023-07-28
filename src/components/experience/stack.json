@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_experience_stacks",
+  "info": {
+    "displayName": "stack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "technique": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
